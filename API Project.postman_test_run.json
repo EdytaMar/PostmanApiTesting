@@ -1,0 +1,272 @@
+{
+	"id": "1ab598dc-160f-4e9d-a2fa-d13396d16bd4",
+	"name": "API Project",
+	"timestamp": "2024-06-10T21:32:26.873Z",
+	"collection_id": "0-1b540a7d-99ad-471a-ada1-34c4e5b50e98",
+	"folder_id": 0,
+	"environment_id": "0f44c1c9-276c-408b-a529-d583c2e4ca68",
+	"totalPass": 55,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "50d6d424-ecfd-4363-8432-abd2c075ddd4",
+			"name": "List users",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User is listed successfully": true,
+				"Response time is less than 1000ms": true,
+				"Correct page number": true,
+				"Correct total number of pages": true
+			},
+			"testPassFailCounts": {
+				"User is listed successfully": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Correct page number": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Correct total number of pages": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				58,
+				50,
+				40,
+				42,
+				51
+			],
+			"allTests": [
+				{
+					"User is listed successfully": true,
+					"Response time is less than 1000ms": true,
+					"Correct page number": true,
+					"Correct total number of pages": true
+				},
+				{
+					"User is listed successfully": true,
+					"Response time is less than 1000ms": true,
+					"Correct page number": true,
+					"Correct total number of pages": true
+				},
+				{
+					"User is listed successfully": true,
+					"Response time is less than 1000ms": true,
+					"Correct page number": true,
+					"Correct total number of pages": true
+				},
+				{
+					"User is listed successfully": true,
+					"Response time is less than 1000ms": true,
+					"Correct page number": true,
+					"Correct total number of pages": true
+				},
+				{
+					"User is listed successfully": true,
+					"Response time is less than 1000ms": true,
+					"Correct page number": true,
+					"Correct total number of pages": true
+				}
+			]
+		},
+		{
+			"id": "3f287d04-08f7-43c1-a76c-2fe8e34db33e",
+			"name": "List a single user",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User is listed successfully": true,
+				"Correct user ID": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"User is listed successfully": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Correct user ID": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				41,
+				45,
+				50,
+				40,
+				40
+			],
+			"allTests": [
+				{
+					"User is listed successfully": true,
+					"Correct user ID": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User is listed successfully": true,
+					"Correct user ID": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User is listed successfully": true,
+					"Correct user ID": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User is listed successfully": true,
+					"Correct user ID": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User is listed successfully": true,
+					"Correct user ID": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "7c416289-31da-4a79-9ca7-3a92b968c14e",
+			"name": "List a not found user",
+			"time": 42,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response time is less than 1000ms": true,
+				"User not found": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"User not found": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				132,
+				44,
+				40,
+				33,
+				42
+			],
+			"allTests": [
+				{
+					"Response time is less than 1000ms": true,
+					"User not found": true
+				},
+				{
+					"Response time is less than 1000ms": true,
+					"User not found": true
+				},
+				{
+					"Response time is less than 1000ms": true,
+					"User not found": true
+				},
+				{
+					"Response time is less than 1000ms": true,
+					"User not found": true
+				},
+				{
+					"Response time is less than 1000ms": true,
+					"User not found": true
+				}
+			]
+		},
+		{
+			"id": "48b8bf9f-05ba-4a2d-8dec-b4af766b58e6",
+			"name": "Create user",
+			"time": 115,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"User created successfully": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"User created successfully": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				119,
+				121,
+				114,
+				111,
+				115
+			],
+			"allTests": [
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 1328,
+	"collection": {
+		"requests": [
+			{
+				"id": "50d6d424-ecfd-4363-8432-abd2c075ddd4",
+				"method": "GET"
+			},
+			{
+				"id": "3f287d04-08f7-43c1-a76c-2fe8e34db33e",
+				"method": "GET"
+			},
+			{
+				"id": "7c416289-31da-4a79-9ca7-3a92b968c14e",
+				"method": "GET"
+			},
+			{
+				"id": "48b8bf9f-05ba-4a2d-8dec-b4af766b58e6",
+				"method": "POST"
+			}
+		]
+	}
+}
